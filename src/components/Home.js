@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import firebase from "../config/Firebase";
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <h1>Welcome to our application. Please confirm who are you?</h1>
@@ -13,6 +14,6 @@ function Home() {
       </button>
     </div>
   );
-}
+};
 
 export default Home;
